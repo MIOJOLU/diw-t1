@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap');
+@font-face
+{
+    font-family: 'Product';
+    font-weight: normal;
+    font-style: normal;
+    src: url('./Product\ Sans\ Bold.ttf');
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #FFD8C8;
+    margin: 0;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.9;
+    font-weight: 400;
+}
+h1{
+    font-family: Product;
+}
+.color-secondary{
+    color: #8BA893;
+}
+.background-primary{
+    background-color: #C35B38;
+}
+.background-secondary{
+    background-color: #4e3546;
+}
+.about h1{
+    font-family: Product;
+    font-size: 4rem;
+}
+.primary-font{
+    color: #4e3546;
+}
+
+.text-justify{
+    text-align: justify;
+}
+.row{
+    scroll-margin-top: 5rem;
+}
+
+
+#navMobile a{
+    text-decoration: none;
+}
+
+.nav-divider{
+    border-right: .13rem solid black;
+}
+.nav-divider-mobile{
+    border-bottom: .13rem solid black;
+}
+
+.nav a{
+    cursor: pointer;
+}
+
+.nav a:hover, #navMobile a:hover{
+    color: #C35B38;
+    font-weight: 600;
+}
+
+.input-search{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 0.15rem solid grey;
+    background-color: transparent;
+    outline:none;
+}
+
+input{
+    border: none;
+    background-color: rgba(76, 40, 65, 0.2);  
+}
+input:focus, textarea:focus, select:focus{
+    background-color: rgba(233, 236, 239, 0.2);
+}
+
+.about{
+    height: 100vh
+}
+.img-about{
+    background: url(./Illustration\ of\ Diverse\ Group\ of\ People.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: .60;
+}
+.img-about-mobile{
+    background: url(./Illustration\ of\ Diverse\ Group\ of\ People.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img-perfil{
+    width: 100%;
+    height: 100%;
+}
+
+.img{
+    width: 100%;
+    background-color: red;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+
